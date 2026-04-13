@@ -1,0 +1,107 @@
+header {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 3.5em;
+}
+
+header .logo {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background: lightgray;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin: 0;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.3em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background: black;
+}
+
+main {
+    background: dimgray;
+    margin: 20px auto;
+    max-width: 1200px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+h1 {
+    color: white;
+    font-size: 2.5em;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    font-size: 1.8em;
+    margin: 20px 0 10px 0;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin: 0 0 15px 0;
+    padding: 15px;
+    background: gray;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.experiment {
+    background: gray;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    text-align: center;
+}
+
+audio {
+    display: block;
+    margin: 20px auto 0 auto;
+    width: 100%;
+    max-width: 700px;
+}
+
+a {
+    color: white;
+}
+
+footer {
+    margin-top: 10px;
+}
+
+footer p {
+    font-size: 1em;
+    margin: 0;
+}
